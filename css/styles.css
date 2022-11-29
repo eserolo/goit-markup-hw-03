@@ -281,7 +281,12 @@ address>a {
     color: #757575;
 }
 
+
 /* estilos portfolio.html */
+/* estilos portfolio.html */
+/* estilos portfolio.html */
+
+
 
 .main-portfolio{
     display: flex;
@@ -312,6 +317,23 @@ address>a {
     letter-spacing: 0.03em;
 }
 
+.btn-filter-current {
+  width: max-content;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  height: 38px;
+  color: #ffffff;
+  background: #2196f3;
+  border-radius: 4px;
+  border: 0;
+  padding: 6px 24px;
+}
+
 .btn-filter:hover {
     color: #FFFFFF;
     background: #2196F3;
@@ -339,6 +361,10 @@ address>a {
 
 .product_list>a {
     text-decoration: none;
+}
+
+.product_desc {
+  padding: 24px;
 }
 
 .product_image {
