@@ -19,7 +19,8 @@
   
     --folio-border: #eeeeee;
   
-    --container-padding: calc((100% - 1200px) / 2);
+    --container-padding: calc((100% - 1600px) / 3);
+    --container-features: calc((100% - 1600px) / 4);
   }
   
   body {
@@ -49,8 +50,8 @@
     color: var(--primary-black-color);
     font-size: 32px;
     font-weight: 700;
-    padding: 30px 0;
     text-align: center;
+    margin-bottom: 15px;
   }
   /* ----------- Header section ----------- */
   header {
@@ -59,8 +60,10 @@
     align-items: center;
   
     height: 80px;
-    padding: 0 var(--container-padding);
-  }
+    padding: var(--container-padding);
+    border-radius: 15px;
+     }
+
   header nav {
     display: flex;
     align-items: center;
@@ -74,6 +77,9 @@
     font-weight: 700;
     line-height: 1.2;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;  
+    padding-left: 215px; 
   }
   
   header nav .nav-menu {
@@ -91,11 +97,17 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: capitalize;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
+
   .contact-menu {
     display: flex;
     list-style: none;
     gap: 80px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 219px;
   }
   .contact-menu .link {
     color: var(--primary-text-color);
@@ -148,6 +160,9 @@
     font-weight: 700;
     text-transform: capitalize;
     padding: 10px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
   }
   .button-primary:hover {
     cursor: pointer;
@@ -164,7 +179,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-evenly;
+    padding: var(--container-features);
   }
   .feature li {
     width: 240px;
@@ -173,6 +188,7 @@
     height: 50px;
     text-transform: uppercase;
     color: var(--primary-black-color);
+    margin-bottom: 15px;
   }
   /* ----------- What we do----------- */
   .what-we-do-section {
