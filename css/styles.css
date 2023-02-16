@@ -176,10 +176,11 @@
     flex-direction: column;
   }
   .feature {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
     padding: var(--container-features);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .feature li {
     width: 240px;
@@ -190,7 +191,7 @@
     color: var(--primary-black-color);
     margin-bottom: 15px;
   }
-  /* ----------- What we do----------- */
+  /* ----------- Seccion a que nos dedicamos----------- */
   .what-we-do-section {
     display: flex;
     justify-content: center;
