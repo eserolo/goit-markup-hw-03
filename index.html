@@ -14,17 +14,17 @@
 </head>
 <body>
   <!-- seccion de cabecera proyecto webstudio -->
-  <div class="container_general">
-  <header class="page-header">
+    <header class="page-header">
+      <div class="container header-container">
     <nav>
       <!-- Logo proyecto webstudio-->
       <a class="logo" href="index.html">Web Studio</a>
       <!-- Menu proyecto webstudio-->
       <ul class="nav-menu">
-        <li>
+        <li class="lista1">
           <a class="page current" href="index.html" rel="noopener noreferrer">Estudio</a>
         </li>
-        <li>
+        <li class="lista1">
           <a class="page" href="portfolio.html" rel="noopener noreferrer">Portafolio</a>
         </li>
         <li>
@@ -34,22 +34,26 @@
     </nav>
     <!-- Contactos proyecto webstudio-->
     <ul class="contact-menu">
-      <li>
+      <li class="lista2">
         <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
       </li>
       <li>
         <a class="link" href="+525555296000">+52 55 55 29 60 00</a> 
       </li>
     </ul>
+  </div>
   </header>
 
   <main>
     <section class="hero bg-hero">
+      <div class="container">
       <h1 class="hero-title">soluciones eficaces para su negocio</h1>
       <button class="button-primary" type="button">
         solicite nuestro servicio
       </button>
+    </div>
     </section>
+
     <!-- Seccion de detalles proyecto webstudio-->
     <section class="section features">
       <div class="container">
@@ -57,7 +61,7 @@
           <h2 class="section title is-hidden">Nuestras Ventajas</h2>
           <li>
             <h3 class="title">atencion a los detalles</h3>
-            <p class="desciption">
+            <p class="description">
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
@@ -65,7 +69,7 @@
 
           <li>
             <h3 class="title">puntualidad</h3>
-            <p class="desciption">
+            <p class="description">
               Con nosotros, usted puede sentirse seguro y protegido. Un
               principio importante de la empresa: respetar su tiempo y
               respetar los plazos acordados.
@@ -74,7 +78,7 @@
 
           <li>
             <h3 class="title">planificacion</h3>
-            <p class="desciption">
+            <p class="description">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
@@ -82,7 +86,7 @@
 
           <li>
             <h3 class="title">tecnologia moderna</h3>
-            <p class="desciption">
+            <p class="description">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales.
             </p>
@@ -91,9 +95,11 @@
       </div>
     </section>
     <!-- Seccion a que nos dedicamos -->
+
     <section class="section what-we-do-section">
+      
       <h2 class="section-title">A que nos dedicamos</h2>
-      <div class="container">
+      <div class="container">      
         <!-- Seccion imagenes proyecto webstudio  -->
         <ul>
           <li>
@@ -111,34 +117,43 @@
       </div>
     </section>
 
+    <!-- Nuestro Equipo proyecto webstudio -->
+
     <section class="section our-team">
-      <!-- Nuestro Equipo proyecto webstudio -->
       <h2 class="section-title">Nuestro equipo</h2>
       <div class="container">
         <ul class="team">
           <!-- Tarjetas proyecto webstudio  -->
           <li>
             <img src="images/Equipo1.jpg" width="270" alt="first Member" />
-            <h3>Andres Cubo</h3>
+            <div class="box-team">
+              <h3>Andres Cubo</h3>
             <p>Diseñador de Productos</p>
+          </div>
           </li>
 
           <li>
             <img src="images/Equipo2.jpg" width="270" alt="second Member" />
+            <div class="box-team">
             <h3>Carla Palacios</h3>
             <p>Desarroladora Frontend</p>
+          </div>
           </li>
 
           <li>
             <img src="images/Equipo3.jpg" width="270" alt="third Member" />
+            <div class="box-team">
             <h3>Mario Dorado</h3>
             <p>Marketing</p>
+          </div>
           </li>
 
           <li>
             <img src="images/Equipo4.jpg" width="270" alt="fourth Member" />
+            <div class="box-team">
             <h3>Pablo Mjangos</h3>
             <p>Diseñador UI</p>
+          </div>
           </li>
         </ul>
       </div>
@@ -148,6 +163,7 @@
 
   <!-- Seccion pie de pagina proyecto webstudio-->
   <footer class="footbar">
+    <div class="container">
     <a class="logo" href="">Web Studio</a>
     <address class="footer-links">
       <ul>
@@ -165,6 +181,7 @@
         </li>
       </ul>
     </address>
+  </div>
   </footer>
 </body>
 </html>
