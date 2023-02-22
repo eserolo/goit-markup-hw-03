@@ -121,11 +121,11 @@
     margin-right: 50px;
   }
   
-  .lista2:not(:last-child):not(:last-child){
+  .lista2:not(:last-child){
     margin-right: 50px;
   }
 
-  .logo {
+   .logo {
     color: var(--accent-color);
     font-family: "Raleway", sans-serif;
     font-size: 26px;
@@ -180,19 +180,17 @@
     flex-direction: column;
   }
   .feature {
-<<<<<<< HEAD
     display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-evenly;
     
-=======
+
     padding: var(--container-features);
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
->>>>>>> ca0d5e2d814ab64eb927c3d26bc162010ea70390
   }
   .feature li {
     width: 240px; 
@@ -204,12 +202,11 @@
     color: var(--primary-black-color);
     margin-bottom: 15px;
   }
-<<<<<<< HEAD
+
 
   /* ----------- What we do----------- */
-=======
   /* ----------- Seccion a que nos dedicamos----------- */
->>>>>>> ca0d5e2d814ab64eb927c3d26bc162010ea70390
+
   .what-we-do-section {
     display: flex;
     justify-content: center;
@@ -299,7 +296,7 @@
   }
   
   /* Portafolio Section */
-
+  
   .portfolio {
     display: flex;
     justify-content: center;
